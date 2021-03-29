@@ -1,10 +1,7 @@
 package szamologep;
 
-<<<<<<< HEAD
-=======
 import java.util.Random;
 
->>>>>>> b4ef9ea7b57c05c9aa36806df03abf4f062418fe
 public class szamologepe extends javax.swing.JFrame {
 
     public szamologepe() {
@@ -64,11 +61,6 @@ public class szamologepe extends javax.swing.JFrame {
         jMenu1.add(jMenuItem2);
 
         jMIosztas.setText("Osztás");
-        jMIosztas.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMIosztasActionPerformed(evt);
-            }
-        });
         jMenu1.add(jMIosztas);
 
         jMenuBar1.add(jMenu1);
@@ -121,17 +113,7 @@ public class szamologepe extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-<<<<<<< HEAD
     public static void main(String args[]) {
-=======
-    private void jMIosztasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMIosztasActionPerformed
-        Random rnd=new Random();
-
-    }//GEN-LAST:event_jMIosztasActionPerformed
-
-    public static void main(String args[]) {
-
->>>>>>> b4ef9ea7b57c05c9aa36806df03abf4f062418fe
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {

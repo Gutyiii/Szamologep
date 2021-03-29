@@ -7,7 +7,12 @@ public class szamologepe extends javax.swing.JFrame {
     public szamologepe() {
         initComponents();
     }
-
+    
+    
+    public void osztas() {
+         
+    }
+    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -15,7 +20,7 @@ public class szamologepe extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        LabelFeladatkiiras = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
         jButton4 = new javax.swing.JButton();
@@ -35,7 +40,7 @@ public class szamologepe extends javax.swing.JFrame {
 
         jButton3.setText("Megoldás");
 
-        jLabel1.setText("Feladat: ");
+        LabelFeladatkiiras.setText("Feladat: ");
 
         jTextField1.setText("Válasz");
 
@@ -57,11 +62,6 @@ public class szamologepe extends javax.swing.JFrame {
         jMenu1.add(jMenuItem2);
 
         jMIosztas.setText("Osztás");
-        jMIosztas.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMIosztasActionPerformed(evt);
-            }
-        });
         jMenu1.add(jMIosztas);
 
         jMenuBar1.add(jMenu1);
@@ -81,7 +81,7 @@ public class szamologepe extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel5)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(LabelFeladatkiiras, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(32, 32, 32)
                         .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
@@ -99,7 +99,7 @@ public class szamologepe extends javax.swing.JFrame {
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1)
+                    .addComponent(LabelFeladatkiiras)
                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(39, 39, 39)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -113,11 +113,6 @@ public class szamologepe extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jMIosztasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMIosztasActionPerformed
-        Random rnd=new Random();
-
-    }//GEN-LAST:event_jMIosztasActionPerformed
 
     public static void main(String args[]) {
 
@@ -146,10 +141,10 @@ public class szamologepe extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel LabelFeladatkiiras;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;

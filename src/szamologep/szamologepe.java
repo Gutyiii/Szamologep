@@ -1,5 +1,10 @@
 package szamologep;
 
+<<<<<<< HEAD
+=======
+import java.util.Random;
+
+>>>>>>> b4ef9ea7b57c05c9aa36806df03abf4f062418fe
 public class szamologepe extends javax.swing.JFrame {
 
     public szamologepe() {
@@ -27,7 +32,7 @@ public class szamologepe extends javax.swing.JFrame {
         jMenuItem4 = new javax.swing.JMenuItem();
         jMenuItem1 = new javax.swing.JMenuItem();
         jMenuItem2 = new javax.swing.JMenuItem();
-        jMenuItem3 = new javax.swing.JMenuItem();
+        jMIosztas = new javax.swing.JMenuItem();
 
         jLabel4.setText("jLabel4");
 
@@ -58,8 +63,13 @@ public class szamologepe extends javax.swing.JFrame {
         jMenuItem2.setText("Szorzás");
         jMenu1.add(jMenuItem2);
 
-        jMenuItem3.setText("Osztás");
-        jMenu1.add(jMenuItem3);
+        jMIosztas.setText("Osztás");
+        jMIosztas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMIosztasActionPerformed(evt);
+            }
+        });
+        jMenu1.add(jMIosztas);
 
         jMenuBar1.add(jMenu1);
 
@@ -111,7 +121,17 @@ public class szamologepe extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+<<<<<<< HEAD
     public static void main(String args[]) {
+=======
+    private void jMIosztasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMIosztasActionPerformed
+        Random rnd=new Random();
+
+    }//GEN-LAST:event_jMIosztasActionPerformed
+
+    public static void main(String args[]) {
+
+>>>>>>> b4ef9ea7b57c05c9aa36806df03abf4f062418fe
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -128,9 +148,7 @@ public class szamologepe extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(szamologepe.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
 
-        /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new szamologepe().setVisible(true);
@@ -146,11 +164,11 @@ public class szamologepe extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JMenuItem jMIosztas;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
-    private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables

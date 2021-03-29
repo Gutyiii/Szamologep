@@ -29,10 +29,13 @@
                 <Property name="text" type="java.lang.String" value="Szorz&#xe1;s"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3">
+            <MenuItem class="javax.swing.JMenuItem" name="jMIosztas">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Oszt&#xe1;s"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMIosztasActionPerformed"/>
+              </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
